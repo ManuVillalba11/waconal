@@ -16,7 +16,11 @@
          margin-right: 10px ;
         color:white;
     }
+
     
+
+
+
     .ronald{
         display: flex;
         justify-content: space-between;
@@ -68,7 +72,9 @@
         text-align: end;
     }
   
-
+    .container-fluid{
+        display:flex ;
+    }
   
   
   /* 
@@ -82,15 +88,3 @@
           display: none;
       }
     }
-
-
-     
-     
-    .seccion1 { 
-         background-color: yellowgreen;
-         } 
-         
-         
-    .seccion2 { 
-         background-color: aliceblue; 
-        }
