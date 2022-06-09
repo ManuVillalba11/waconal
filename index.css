@@ -69,16 +69,13 @@
     }
   
 
-  
+
   
   /* 
   responsive */
   
   @media screen and (max-width: 240px) {
-      body {
-        background-image:none;
-      }
-      .breadcrumb-item{
+      .navbar-desktop{
           display: none;
       }
     }
@@ -94,3 +91,9 @@
     .seccion2 { 
          background-color: aliceblue; 
         }
+
+@media screen and (min-width: 240px) {
+            .navbar-mobile{
+                display: none;
+            }
+          }
